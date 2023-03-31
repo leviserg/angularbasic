@@ -1,0 +1,17 @@
+1. Installation:
+	> npm install -g @angular/cli
+    ## go to your project root folder
+    > ng new my-basic-app
+    ## go to created app folder 
+    > cd my-basic-app 
+    > ng serve
+2. Folder node_modules - added to .gitignore
+3. .editorconfig - create IDE style
+4. angular.json - project settings
+5. karma.conf.js - for testing
+6. package.json - modules and dependecies + object "scrpits" descrips CLI npm command aliases e.g. npm build -> ng build
+7. ts.config.json - typescript settings + tslint.json - editor configuration
+8. src - main folder for development
+9. when development on local server is completed - run command 
+    > ng build
+    ## this will create folder "dist" in project with project content + compiled ts to js files ready to push to production
